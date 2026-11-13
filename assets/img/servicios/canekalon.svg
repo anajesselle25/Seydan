@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="canekalonTitle" preserveAspectRatio="xMidYMid slice">
+  <title id="canekalonTitle">Ilustración de trenzas con extensiones canekalon y cuentas decorativas</title>
+  <rect width="640" height="420" fill="#FFF8E7"/>
+  <circle cx="320" cy="214" r="168" fill="#DDF4EC"/>
+  <circle cx="520" cy="102" r="32" fill="#C8A96A" opacity=".3"/>
+  <g stroke-linecap="round" fill="none">
+    <path d="M206 92c-10 66 6 120 2 178-2 40 6 72 18 96" stroke="#1F3D36" stroke-width="18"/>
+    <path d="M286 88c-6 72 10 128 6 190-2 40 4 70 14 94" stroke="#3F8F76" stroke-width="18"/>
+    <path d="M366 88c8 72-6 128-2 190 2 40-4 70-14 94" stroke="#1F3D36" stroke-width="18"/>
+    <path d="M446 92c12 66-2 120 2 178 2 40-6 72-18 96" stroke="#3F8F76" stroke-width="18"/>
+  </g>
+  <g fill="none" stroke="#7FD1B9" stroke-width="6" opacity=".85">
+    <path d="M198 112c-4 48 8 92 4 138M278 110c-2 52 10 96 6 144M374 110c4 52-8 96-4 144M454 112c8 48-4 92 0 138"/>
+  </g>
+  <g fill="#C8A96A">
+    <rect x="196" y="362" width="24" height="30" rx="10"/>
+    <rect x="278" y="366" width="24" height="30" rx="10"/>
+    <rect x="354" y="366" width="24" height="30" rx="10"/>
+    <rect x="436" y="362" width="24" height="30" rx="10"/>
+  </g>
+  <g fill="#7FD1B9">
+    <rect x="202" y="330" width="16" height="22" rx="8"/>
+    <rect x="284" y="336" width="16" height="22" rx="8"/>
+    <rect x="360" y="336" width="16" height="22" rx="8"/>
+    <rect x="442" y="330" width="16" height="22" rx="8"/>
+  </g>
+  <g fill="none" stroke="#1F3D36" stroke-width="4" opacity=".25">
+    <path d="M206 150l-10 12M286 160l-10 12M366 160l10 12M446 150l10 12"/>
+    <path d="M208 210l-10 12M288 220l-10 12M364 220l10 12M444 210l10 12"/>
+  </g>
+  <g fill="#C8A96A">
+    <path d="M96 266l6 16 16 6-16 6-6 16-6-16-16-6 16-6Z"/>
+    <path d="M540 244l4 12 12 4-12 4-4 12-4-12-12-4 12-4Z" opacity=".8"/>
+  </g>
+  <path d="M104 340c30 0 52-14 68-38" fill="none" stroke="#3F8F76" stroke-width="7" stroke-linecap="round" opacity=".5"/>
+</svg>

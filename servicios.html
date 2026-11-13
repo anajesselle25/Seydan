@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios · Seydan</title>
+  <meta name="description" content="Catálogo de servicios de Seydan: planchado, ondas, tinte, alisados sin formol, peinados para niñas y servicios con canekalon. Precios en COP.">
+  <meta name="theme-color" content="#7FD1B9">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script type="module" src="assets/js/app.js"></script>
+</head>
+<body id="inicio" data-page="servicios">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header" data-header>
+    <div class="container header__inner">
+      <a class="brand" href="index.html">
+        <img class="brand__mark" src="assets/img/logo-mark.png" alt="" width="42" height="42">
+        <span>
+          <span class="brand__name">Seydan</span>
+          <span class="brand__tag">ByAngieTorres/Peluquería </span>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav-principal" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html">Inicio</a></li>
+          <li><a class="nav__link" href="servicios.html" aria-current="page">Servicios</a></li>
+          <li><a class="nav__link" href="index.html#sobre-nosotros">Nosotros</a></li>
+          
+        </ul>
+        <div class="nav__actions">
+          
+          <a class="btn btn--primary btn--sm" href="reservaciones.html#reservar">Reservar</a>
+        </div>
+      </nav>
+
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="nav-principal">
+        <span class="sr-only">Abrir menú</span>
+        <span class="nav-toggle__bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="page-hero">
+      <div class="container">
+        <nav aria-label="Migas de pan">
+          <ol class="breadcrumb">
+            <li><a href="index.html">Inicio</a></li>
+            <li aria-current="page">Servicios</li>
+          </ol>
+        </nav>
+        <p class="eyebrow">Carta de servicios</p>
+        <h1 class="page-hero__title">Encuentra tu próximo look.</h1>
+        <p class="lead">Seis servicios pensados para el día a día y para esas ocasiones que merecen un extra. Precios en pesos colombianos (COP), sin sorpresas.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="catalogo-titulo">
+      <div class="container">
+        <h2 class="sr-only" id="catalogo-titulo">Catálogo de servicios</h2>
+
+        <div class="toolbar">
+          <div class="toolbar__top">
+            <div class="control">
+              <label for="buscar-servicio">Buscar servicio</label>
+              <div class="search-box">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+                <input id="buscar-servicio" type="search" placeholder="Ej. trenzas, tinte, niñas…" autocomplete="off" data-busqueda aria-describedby="busqueda-ayuda">
+                <button class="search-box__clear" type="button" data-limpiar-busqueda aria-label="Limpiar búsqueda" hidden>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+                </button>
+              </div>
+              <p class="field__hint" id="busqueda-ayuda">Busca por nombre, técnica o categoría.</p>
+            </div>
+
+            <div class="control">
+              <label for="orden-servicios">Ordenar por</label>
+              <select id="orden-servicios" data-orden>
+                <option value="recomendados">Recomendados</option>
+                <option value="precio-asc">Precio: menor a mayor</option>
+                <option value="precio-desc">Precio: mayor a menor</option>
+                <option value="duracion">Duración: menor primero</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="chips" data-filtros role="group" aria-label="Filtrar por categoría"></div>
+
+          <div class="toolbar__foot">
+            <p class="results-count" data-contador-servicios role="status" aria-live="polite">Cargando servicios…</p>
+            <button class="btn btn--ghost btn--sm" type="button" data-reset-filtros>Limpiar filtros</button>
+          </div>
+        </div>
+
+        <div class="services-grid" data-grid-servicios>
+          <p class="muted">Cargando servicios…</p>
+        </div>
+
+        <div class="state" data-servicios-vacio hidden>
+          <span class="state__icon">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+          </span>
+          <h2>No encontramos ese look</h2>
+          <p>Prueba con otra palabra o quita los filtros. También puedes ver todos los servicios disponibles.</p>
+          <button class="btn btn--primary" type="button" data-reset-filtros>Ver todos los servicios</button>
+        </div>
+
+        <div class="state state--error" data-servicios-error hidden role="alert">
+          <span class="state__icon">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4 3 20h18L12 4Z"/><path d="M12 9v5M12 17v.01"/></svg>
+          </span>
+          <h2>No pudimos cargar el catálogo</h2>
+          <p>Revisa tu conexión o vuelve a intentarlo. Si el problema continúa, escríbenos y te ayudamos a reservar.</p>
+          <a class="btn btn--primary" href="servicios.html">Reintentar</a>
+        </div>
+
+        <noscript>
+          <div class="notice" style="margin-top: 1.5rem;">
+            Activa JavaScript para filtrar y ver el detalle de los servicios. También puedes reservar por WhatsApp al <a href="https://wa.me/573000000000">+57 300 000 0000</a>.
+          </div>
+        </noscript>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="ayuda-titulo">
+      <div class="container">
+        <div class="cta-band">
+          <div class="cta-band__inner">
+            <div>
+              <p class="eyebrow eyebrow--light">¿No sabes cuál elegir?</p>
+              <h2 id="ayuda-titulo">Te ayudamos a decidir.</h2>
+              <p>Cuéntanos cómo es tu cabello y qué quieres lograr. Te recomendamos el servicio y la duración real que necesitas.</p>
+            </div>
+            <div class="cta-band__actions">
+              <a class="btn btn--primary btn--lg" href="https://wa.me/573134313385" target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a>
+              <a class="btn btn--ghost btn--lg" href="reservaciones.html#reservar" style="color: var(--color-cream); border-color: rgba(255,248,231,.35);">Reservar directo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contacto">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="brand" href="index.html">
+          <img class="brand__mark" src="assets/img/logo-mark.svg" alt="" width="42" height="42">
+          <span>
+            <span class="brand__name">Seydan</span>
+            <span class="brand__tag">ByAngieTorres/Peluquería</span>
+          </span>
+        </a>
+        <p>Planchados, ondas, color y trenzas con un trato cercano. Un espacio pequeño para cuidarte sin prisa.</p>
+        <div class="footer__social">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Seydan en Instagram">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Seydan en Facebook">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v7h4v-7h3l1-4h-4V8Z"/></svg>
+          </a>
+          <a href="https://wa.me/573134313385" target="_blank" rel="noopener noreferrer" aria-label="Seydan en WhatsApp">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 0 1-11.5 7.2L4 20l1.8-4.4A8 8 0 1 1 20 11Z"/><path d="M9 9c0 3 2 5 5 5l1.5-1.5-2-1-1 1c-1 0-2-1-2-2l1-1-1-2L9 9Z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h2>Explora</h2>
+        <ul class="footer__links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="index.html#sobre-nosotros">Nosotros</a></li>
+          
+        </ul>
+      </div>
+
+      <div>
+        <h2>Servicios</h2>
+        <ul class="footer__links">
+          <li><a href="servicios.html?categoria=planchado">Planchado</a></li>
+          <li><a href="servicios.html?categoria=ondas">Ondas</a></li>
+          <li><a href="servicios.html?categoria=canekalon">Canekalon</a></li>
+          <li><a href="servicios.html?categoria=ninas">Niñas</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>Visítanos</h2>
+        <ul class="footer__contact">
+          <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> Calle 3, El Rosal, Rubio Estado Táchira, Venezuela</li>
+          <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg> <a href="tel:+573134313385">+57 313 431 3385</a></li>
+          <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg> <a href="mailto:hola@seydan.co">hola@seydan.co</a></li>
+          <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> Lunes a sábado · 9:00 a 18:00</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© <span data-year>2026</span> Seydan. Todos los derechos reservados.</p>
+      <a href="#inicio">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <div class="toast" data-toast role="status" aria-live="polite" aria-atomic="true"></div>
+<a class="whatsapp-float" href="https://wa.me/573134313385?text=Hola%2C%20quisiera%20una%20cotizaci%C3%B3n." target="_blank" rel="noopener noreferrer" aria-label="Consultar por WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 11a8 8 0 0 1-11.5 7.2L4 20l1.8-4.4A8 8 0 1 1 20 11Z"/><path d="M9 9c0 3 2 5 5 5l1.5-1.5-2-1-1 1c-1 0-2-1-2-2l1-1-1-2L9 9Z"/></svg></a></body>
+</html>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="tinteTitle" preserveAspectRatio="xMidYMid slice">
+  <title id="tinteTitle">Ilustración de tinte para cabello con bowl, brocha y muestras de color</title>
+  <rect width="640" height="420" fill="#FFF8E7"/>
+  <circle cx="320" cy="214" r="168" fill="#EAF8F3"/>
+  <circle cx="516" cy="102" r="34" fill="#C8A96A" opacity=".3"/>
+  <path d="M196 260h248c0 64-52 104-124 104s-124-40-124-104Z" fill="#1F3D36"/>
+  <ellipse cx="320" cy="260" rx="124" ry="28" fill="#3F8F76"/>
+  <ellipse cx="320" cy="258" rx="98" ry="18" fill="#7FD1B9"/>
+  <path d="M306 250c8-10 20-10 28 0" fill="none" stroke="#DDF4EC" stroke-width="6" stroke-linecap="round" opacity=".7"/>
+  <path d="M254 326c14 18 38 28 66 30" fill="none" stroke="#7FD1B9" stroke-width="6" stroke-linecap="round" opacity=".5"/>
+  <g transform="rotate(-26 420 196)">
+    <rect x="400" y="72" width="26" height="156" rx="13" fill="#C8A96A"/>
+    <rect x="394" y="216" width="38" height="52" rx="10" fill="#1F3D36"/>
+    <path d="M396 264h34l-6 38h-22Z" fill="#3F8F76"/>
+  </g>
+  <g>
+    <circle cx="152" cy="166" r="30" fill="#7FD1B9"/>
+    <circle cx="152" cy="166" r="30" fill="none" stroke="#1F3D36" stroke-width="4" opacity=".2"/>
+    <circle cx="220" cy="132" r="22" fill="#3F8F76"/>
+    <circle cx="220" cy="132" r="22" fill="none" stroke="#1F3D36" stroke-width="4" opacity=".2"/>
+    <circle cx="150" cy="242" r="22" fill="#C8A96A"/>
+    <circle cx="150" cy="242" r="22" fill="none" stroke="#1F3D36" stroke-width="4" opacity=".2"/>
+  </g>
+  <path d="M514 306c22 10 34 28 36 52" fill="none" stroke="#3F8F76" stroke-width="7" stroke-linecap="round" opacity=".5"/>
+  <g fill="#C8A96A">
+    <path d="M86 86l6 16 16 6-16 6-6 16-6-16-16-6 16-6Z"/>
+    <path d="M556 210l4 12 12 4-12 4-4 12-4-12-12-4 12-4Z" opacity=".8"/>
+  </g>
+</svg>

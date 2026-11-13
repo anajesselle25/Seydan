@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="ondasTitle" preserveAspectRatio="xMidYMid slice">
+  <title id="ondasTitle">Ilustración de ondas de cabello con rizador</title>
+  <rect width="640" height="420" fill="#FFF8E7"/>
+  <circle cx="318" cy="214" r="168" fill="#DDF4EC"/>
+  <circle cx="112" cy="104" r="30" fill="#C8A96A" opacity=".3"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M120 118c44 0 44 44 88 44s44-44 88-44 44 44 88 44 44-44 88-44" stroke="#1F3D36" stroke-width="12"/>
+    <path d="M120 180c44 0 44 44 88 44s44-44 88-44 44 44 88 44 44-44 88-44" stroke="#3F8F76" stroke-width="9" opacity=".85"/>
+    <path d="M120 242c44 0 44 44 88 44s44-44 88-44 44 44 88 44 44-44 88-44" stroke="#7FD1B9" stroke-width="8"/>
+    <path d="M120 304c44 0 44 44 88 44s44-44 88-44 44 44 88 44 44-44 88-44" stroke="#A8E6CF" stroke-width="7"/>
+  </g>
+  <g transform="rotate(18 500 214)">
+    <rect x="486" y="112" width="30" height="150" rx="15" fill="#1F3D36"/>
+    <rect x="480" y="86" width="42" height="40" rx="15" fill="#7FD1B9"/>
+    <rect x="486" y="248" width="30" height="76" rx="15" fill="#3F8F76"/>
+    <path d="M501 324c0 24-10 40-28 50" fill="none" stroke="#1F3D36" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g fill="#C8A96A">
+    <path d="M86 312l6 16 16 6-16 6-6 16-6-16-16-6 16-6Z"/>
+    <path d="M556 74l4 12 12 4-12 4-4 12-4-12-12-4 12-4Z" opacity=".8"/>
+  </g>
+</svg>

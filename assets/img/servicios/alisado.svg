@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="alisadoTitle" preserveAspectRatio="xMidYMid slice">
+  <title id="alisadoTitle">Ilustración de cabello alisado con brillo y peine</title>
+  <rect width="640" height="420" fill="#FFF8E7"/>
+  <circle cx="320" cy="214" r="168" fill="#DDF4EC"/>
+  <circle cx="528" cy="110" r="32" fill="#C8A96A" opacity=".3"/>
+  <path d="M232 92c74-26 152-26 214 6-14 92-42 182-86 254-46 26-96 26-142 0-42-76-64-164-58-254 22-2 46-4 72-6Z" fill="#3F8F76"/>
+  <path d="M262 118c50-14 104-14 148 0-10 76-32 152-64 214-30 16-62 16-92 0-26-66-42-142-38-208 14-2 30-4 46-6Z" fill="#7FD1B9"/>
+  <path d="M300 120c22-6 46-6 68 0-6 76-20 148-44 206-14 8-30 8-44 0-16-66-24-140-20-200 14-2 26-4 40-6Z" fill="#A8E6CF" opacity=".8"/>
+  <g fill="none" stroke="#FFF8E7" stroke-width="6" stroke-linecap="round" opacity=".55">
+    <path d="M288 154c-4 58-2 114 8 164"/>
+    <path d="M356 150c2 56-2 112-12 162"/>
+  </g>
+  <g transform="rotate(22 470 214)">
+    <rect x="452" y="76" width="38" height="42" rx="12" fill="#1F3D36"/>
+    <path d="M456 112h30v176a14 14 0 0 1-14 14h-2a14 14 0 0 1-14-14Z" fill="#C8A96A"/>
+    <g stroke="#1F3D36" stroke-width="4">
+      <path d="M460 138h22M460 158h22M460 178h22M460 198h22M460 218h22M460 238h22M460 258h22"/>
+    </g>
+  </g>
+  <g fill="#C8A96A">
+    <path d="M142 88l6 16 16 6-16 6-6 16-6-16-16-6 16-6Z"/>
+    <path d="M164 276l4 12 12 4-12 4-4 12-4-12-12-4 12-4Z" opacity=".8"/>
+    <circle cx="540" cy="318" r="5"/>
+    <circle cx="512" cy="336" r="4" opacity=".7"/>
+  </g>
+  <path d="M112 342c34-2 60-18 76-46" fill="none" stroke="#3F8F76" stroke-width="7" stroke-linecap="round" opacity=".5"/>
+</svg>
