@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="salonTitle" preserveAspectRatio="xMidYMid slice">
+  <title id="salonTitle">Ilustración del interior del salón Seydan con espejo, silla y plantas</title>
+  <defs>
+    <linearGradient id="salonBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF8E7"/>
+      <stop offset="1" stop-color="#F7EDD6"/>
+    </linearGradient>
+    <linearGradient id="mirror" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#DDF4EC"/>
+      <stop offset="1" stop-color="#A8E6CF"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="560" fill="url(#salonBg)"/>
+  <circle cx="588" cy="116" r="86" fill="#EAF8F3"/>
+  <path d="M0 472h720v88H0Z" fill="#EFE2C6"/>
+  <path d="M184 118h284v298a34 34 0 0 1-34 34H218a34 34 0 0 1-34-34Z" fill="none" stroke="#C8A96A" stroke-width="12"/>
+  <path d="M204 136h244v268a18 18 0 0 1-18 18H222a18 18 0 0 1-18-18Z" fill="url(#mirror)"/>
+  <path d="M242 168c36 22 62 54 72 96" fill="none" stroke="#FFF8E7" stroke-width="14" stroke-linecap="round" opacity=".7"/>
+  <path d="M384 420c-8-58 0-102 18-134" fill="none" stroke="#5FBBA1" stroke-width="10" stroke-linecap="round" opacity=".45"/>
+  <circle cx="620" cy="452" r="46" fill="#FFFDF8"/>
+  <path d="M620 326c-46 42-62 84-56 126h112c6-42-10-84-56-126Z" fill="#3F8F76"/>
+  <path d="M620 328v122" stroke="#2C6A58" stroke-width="6" stroke-linecap="round"/>
+  <path d="M620 376c-26-20-48-22-66-8 16 22 38 26 66 8Z" fill="#7FD1B9"/>
+  <path d="M620 404c26-20 48-22 66-8-16 22-38 26-66 8Z" fill="#7FD1B9"/>
+  <path d="M236 430h180v22H236Z" fill="#1F3D36"/>
+  <path d="M252 452h20v68h-20Zm128 0h20v68h-20Z" fill="#1F3D36"/>
+  <path d="M284 374h84v56h-84Z" fill="#FFFDF8" stroke="#C8A96A" stroke-width="4"/>
+  <path d="M296 386h60" stroke="#C8A96A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M326 342c0-18 8-30 22-36 14 6 22 18 22 36Z" fill="#C8A96A" opacity=".85"/>
+  <path d="M330 342h36" stroke="#8A6B2F" stroke-width="4" stroke-linecap="round"/>
+  <path d="M92 428c14-52 44-82 90-90v146H92Z" fill="#DDF4EC"/>
+  <path d="M118 444a34 34 0 0 1 34-34h22v24h-22a10 10 0 0 0 0 20h22v24h-22a34 34 0 0 1-34-34Z" fill="#3F8F76"/>
+  <circle cx="166" cy="408" r="20" fill="#7FD1B9"/>
+  <path d="M166 388v-34" stroke="#1F3D36" stroke-width="6" stroke-linecap="round"/>
+  <path d="M70 84h96v10H70Z" fill="#1F3D36"/>
+  <path d="M118 94v42" stroke="#1F3D36" stroke-width="6"/>
+  <path d="M92 136h52l-12 46H104Z" fill="#C8A96A"/>
+  <circle cx="118" cy="190" r="9" fill="#FFF8E7"/>
+  <g fill="#C8A96A">
+    <path d="M486 252l6 16 16 6-16 6-6 16-6-16-16-6 16-6Z" opacity=".8"/>
+    <path d="M548 208l4 12 12 4-12 4-4 12-4-12-12-4 12-4Z" opacity=".6"/>
+  </g>
+</svg>

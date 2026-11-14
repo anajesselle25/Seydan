@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="ninasTitle" preserveAspectRatio="xMidYMid slice">
+  <title id="ninasTitle">Ilustración de peinado infantil con trenzas, ligas y moños de colores</title>
+  <rect width="640" height="420" fill="#FFF8E7"/>
+  <circle cx="320" cy="214" r="168" fill="#EAF8F3"/>
+  <circle cx="112" cy="112" r="28" fill="#C8A96A" opacity=".3"/>
+  <path d="M254 118c42-32 90-32 132 0 34 26 44 66 30 108-12 34-42 56-78 56h-36c-36 0-66-22-78-56-14-42-4-82 30-108Z" fill="#1F3D36"/>
+  <path d="M270 140c34-22 66-22 100 0 18 16 24 40 16 64-8 22-26 36-48 36h-36c-22 0-40-14-48-36-8-24-2-48 16-64Z" fill="#3F8F76"/>
+  <g fill="none" stroke="#7FD1B9" stroke-width="10" stroke-linecap="round">
+    <path d="M242 176c-24 30-34 64-28 100 4 22 16 38 34 44"/>
+    <path d="M398 176c24 30 34 64 28 100-4 22-16 38-34 44"/>
+  </g>
+  <g>
+    <path d="M242 180l-34-24 6 38 38 8Z" fill="#C8A96A"/>
+    <path d="M242 180l-12-40 32 22 8 36Z" fill="#E5C97A"/>
+    <circle cx="240" cy="190" r="9" fill="#1F3D36"/>
+    <path d="M398 180l34-24-6 38-38 8Z" fill="#C8A96A"/>
+    <path d="M398 180l12-40-32 22-8 36Z" fill="#E5C97A"/>
+    <circle cx="400" cy="190" r="9" fill="#1F3D36"/>
+  </g>
+  <g fill="none" stroke-linecap="round">
+    <path d="M204 306c-12 18-8 38 8 48 16 10 34 4 42-10" stroke="#3F8F76" stroke-width="14"/>
+    <path d="M436 306c12 18 8 38-8 48-16 10-34 4-42-10" stroke="#3F8F76" stroke-width="14"/>
+  </g>
+  <g>
+    <circle cx="220" cy="356" r="14" fill="#C8A96A"/>
+    <circle cx="420" cy="356" r="14" fill="#C8A96A"/>
+    <path d="M220 370v28M420 370v28" stroke="#C8A96A" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g fill="#C8A96A">
+    <path d="M496 70l6 16 16 6-16 6-6 16-6-16-16-6 16-6Z"/>
+    <path d="M112 320l4 12 12 4-12 4-4 12-4-12-12-4 12-4Z" opacity=".8"/>
+  </g>
+  <g fill="none" stroke="#C8A96A" stroke-width="4" opacity=".7">
+    <path d="M268 318c16 8 32 8 48 0"/>
+    <path d="M268 340c16 8 32 8 48 0"/>
+  </g>
+</svg>

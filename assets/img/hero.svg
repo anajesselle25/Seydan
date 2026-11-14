@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="heroTitle" preserveAspectRatio="xMidYMid slice">
+  <title id="heroTitle">Ilustración de una melena con ondas en tonos menta y crema</title>
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF8F3"/>
+      <stop offset="1" stop-color="#FFF8E7"/>
+    </linearGradient>
+    <linearGradient id="heroHair" x1=".2" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#2C6A58"/>
+      <stop offset=".55" stop-color="#3F8F76"/>
+      <stop offset="1" stop-color="#7FD1B9"/>
+    </linearGradient>
+    <linearGradient id="heroMint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A8E6CF"/>
+      <stop offset="1" stop-color="#5FBBA1"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="900" fill="url(#heroBg)"/>
+  <circle cx="360" cy="470" r="292" fill="#DDF4EC"/>
+  <circle cx="578" cy="176" r="58" fill="#C8A96A" opacity=".32"/>
+  <circle cx="132" cy="238" r="18" fill="#C8A96A" opacity=".45"/>
+  <path d="M104 900c18-172 118-254 256-254s238 82 256 254Z" fill="#1F3D36"/>
+  <path d="M360 164c-106 0-162 90-152 204 6 70 30 118 52 164 20 42 32 84 28 128 32-52 34-104 18-166-12-46-26-78-26-118 0-48 34-84 80-84s80 36 80 84c0 40-14 72-26 118-16 62-14 114 18 166-4-44 8-86 28-128 22-46 46-94 52-164 10-114-44-204-152-204Z" fill="url(#heroHair)"/>
+  <path d="M294 226c-38 84-34 178-10 252" fill="none" stroke="#A8E6CF" stroke-width="11" stroke-linecap="round" opacity=".45"/>
+  <path d="M428 238c32 76 30 158 8 224" fill="none" stroke="#FFF8E7" stroke-width="8" stroke-linecap="round" opacity=".28"/>
+  <path d="M374 236c16 84 8 164-6 230" fill="none" stroke="#DDF4EC" stroke-width="6" stroke-linecap="round" opacity=".25"/>
+  <path d="M232 470c14 58 36 100 56 138" fill="none" stroke="#1F3D36" stroke-width="7" stroke-linecap="round" opacity=".18"/>
+  <circle cx="486" cy="512" r="17" fill="none" stroke="#C8A96A" stroke-width="6"/>
+  <path d="M486 529c-2 22-6 40-14 56" fill="none" stroke="#C8A96A" stroke-width="6" stroke-linecap="round"/>
+  <g fill="#C8A96A">
+    <path d="M118 118l7 18 18 7-18 7-7 18-7-18-18-7 18-7Z" opacity=".9"/>
+    <path d="M604 342l5 13 13 5-13 5-5 13-5-13-13-5 13-5Z" opacity=".7"/>
+    <path d="M138 706l4 11 11 4-11 4-4 11-4-11-11-4 11-4Z" opacity=".6"/>
+  </g>
+  <g fill="none" stroke="#3F8F76" stroke-width="7" stroke-linecap="round" opacity=".55">
+    <path d="M84 640c40-8 70-34 82-72"/>
+    <path d="M98 662c40-8 70-34 82-72"/>
+  </g>
+  <ellipse cx="104" cy="624" rx="26" ry="12" transform="rotate(-48 104 624)" fill="#7FD1B9" opacity=".7"/>
+  <ellipse cx="152" cy="592" rx="26" ry="12" transform="rotate(-28 152 592)" fill="url(#heroMint)" opacity=".8"/>
+  <ellipse cx="646" cy="654" rx="30" ry="14" transform="rotate(30 646 654)" fill="#A8E6CF" opacity=".55"/>
+</svg>
